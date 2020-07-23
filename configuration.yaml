@@ -18,3 +18,13 @@ homeassistant:
   elevation: 688.85
   unit_system: metric
   time_zone: America/Sao_Paulo
+
+discovery:
+  ignore:
+    - yeelight
+yeelight:
+  devices:
+    10.0.0.102:
+      name: Dining Room Light
+    10.0.0.111:
+      name: Office Light
