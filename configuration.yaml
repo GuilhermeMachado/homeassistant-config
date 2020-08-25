@@ -1,4 +1,3 @@
-
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
@@ -24,7 +23,7 @@ discovery:
     - yeelight
 yeelight:
   devices:
-    10.0.0.102:
+    10.0.0.102: # yeelink-light-color2-miio13444 
       name: Dining Room Light
-    10.0.0.111:
+    10.0.0.100: # yeelink-light-color2-miapbd8a
       name: Office Light
